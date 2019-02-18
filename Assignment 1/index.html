@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-
-<!-- This is an HTML comment -->
-
+<!-- doctype tells the browser what version of HTML we are using (HTML 5) -->
 <html lang="en">
-
     <head>
-        <title>Index</title>
+<!-- no content in the <head> -->
+        <title>Assignment 1</title>
     </head>
-
     <body>
-        <p>The quick brown fox...</p>
-        
-        <img src="assets/image/tocumwal-naa-1.jpg" alt="Old house plan with tape all over it">
-    
-    </body>
+        <header>
+            <h1 id="top">Heading 1</h1>
 
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#firstStory">Shop</a></li>
+                    <li><a href="#secondStory">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article id="firstStory">
+                <h2>A Story</h2>
+                <p>The <em>quick</em> <br> brown fox...</p>
+                <img src="assets/image/tocumwal-naa-1.jpg" alt="Old house plan with tape all over it">
+            </article>
+            <!-- If you snip out an artical it should still make sense-->
+            <article id="secondStory">
+                <h2>A Second Story</h2>
+                <p>The <strong>quick</strong> <br> brown fox...</p>
+            </article>
+        </main>
+        <footer>
+            <a href="#top">^ Back to top ^</a>
+        </footer>
+    </body>
+<!--    No contnet here  -->
 </html>
